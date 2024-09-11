@@ -1,0 +1,31 @@
+[0m14:47:39.746781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b898b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069297c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fa2210>]}
+
+
+============================== 14:47:39.748555 | a38bc69f-e3d5-493f-9549-d402aca53a78 ==============================
+[0m14:47:39.748555 [info ] [MainThread]: Running with dbt=1.8.6
+[0m14:47:39.748886 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'partial_parse': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'fail_fast': 'False', 'empty': 'None', 'warn_error': 'None', 'introspect': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'static_parser': 'True', 'profiles_dir': '/Users/abhishekk/.dbt', 'log_cache_events': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'debug': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'version_check': 'True', 'log_path': 'logs', 'write_json': 'True', 'indirect_selection': 'eager'}
+[0m14:47:39.756656 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/abhishekk/.dbt')}
+[0m14:47:39.756902 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:47:52.914836 [debug] [MainThread]: Starter project path: /Applications/Anaconda/anaconda3/lib/python3.12/site-packages/dbt/include/starter_project
+[0m14:47:52.932457 [info ] [MainThread]: 
+Your new dbt project "nyc_parking_violations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:47:52.933045 [info ] [MainThread]: Setting up your profile.
+[0m14:47:58.073108 [info ] [MainThread]: Profile nyc_parking_violations written to /Users/abhishekk/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:47:58.074940 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 18.39009, "process_user_time": 0.619135, "process_kernel_time": 0.178082, "process_mem_max_rss": "113721344", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:47:58.075329 [debug] [MainThread]: Command `dbt init` succeeded at 14:47:58.075265 after 18.39 seconds
+[0m14:47:58.075546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102982a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f55e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10708dbb0>]}
+[0m14:47:58.075745 [debug] [MainThread]: Flushing usage events
